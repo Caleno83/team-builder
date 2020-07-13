@@ -29,7 +29,7 @@ const Form = props => {
   return (
     <form
       onSubmit={handleSubmit}>
-      <label for="name">Name:</label>
+      <label for="name">Name: </label>
       <input
         onChange={handleName}
         id="name"
@@ -39,7 +39,7 @@ const Form = props => {
         value={name}
         placeholder="Please Enter Your Name Here"
       />
-      <label for="email">Email:</label>
+      <label for="email">Email: </label>
       <input
         onChange={handleEmail}
         id="email"
@@ -53,7 +53,7 @@ const Form = props => {
         value={email}
         
       />
-      <label for="role">Role:</label>
+      <label for="role">Role: </label>
       <input
         onChange={handleRole}
         id="role"

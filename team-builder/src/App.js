@@ -9,11 +9,18 @@ function App() {
   const [teamMembers, setTeamMembers] = useState([]);
 
   return (
-    <div className="App">
+    <>
+    <header>
       <h1>JJ COMPANY TEAM MEMBERS INFO</h1>
+      <div className="forms">
       <Form list={teamMembers} setList={setTeamMembers}/>
+      </div>
+      </header>
+      <div className="body">
+      
       <TeamMemberList list={teamMembers} setList={setTeamMembers} />
     </div>
+    </>
   );
 }
 
